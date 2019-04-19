@@ -24,7 +24,7 @@ test1=go.pop()
 print(test1)
 test2=go.pop(1)
 print(test2)
-#此方法没有返回值，不能给变量赋值
+#此方法没有返回值，不能给变量赋值，此方法只删除第一个指定的值
 go.remove('g')
 print(go)
 
